@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+  background: #ffffff;
+}
+
+/* DEBUT HEADER */
+header img {
+  width: 100%;
+}
+
+/* HEADER P */
+header p {
+  font-size: 50px;
+  position: relative;
+  bottom: 800px;
+  left: 500px;
+  color: white;
+}
+
+header p:nth-of-type(4) {
+  font-size: 20px;
+  width: 25%;
+  color: #636363;
+}
+
+header p:nth-of-type(2) {
+  font-weight: bold;
+}
+
+header span {
+  color: #0081ff;
+}
+
+.hithere {
+  font-family: licorice;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 1450px;
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:nth-of-type(1) {
+  color: #8799a3;
+}
+
+/* BUTTON */
+.aboutmebut {
+  position: relative;
+  bottom: 800px;
+  left: 500px;
+  color: white;
+  background: #2b2b2b;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.nav button {
+  border-radius: 10px;
+  background: transparent;
+  color: yellow;
+  padding: 7px;
+}
+
+/* MAIN */
+.groupe {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  width: 65%;
+  margin: auto;
+}
+
+.groupe p {
+  font-size: 25px;
+  width: 70%;
+}
+
+.groupe p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.groupe p:nth-of-type(2) {
+  color: #636363;
+}
+
+.groupe p:nth-of-type(3) {
+  color: white;
+  background: #007bf3;
+  text-align: center;
+  padding: 75px;
+}
+
+/* CLASS VIDEO */
+.video {
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+  margin: auto;
+  border: 1px solid blue;
+}
+
+.video p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.video p:nth-of-type(2) {
+  color: white;
+  background: #e91d61;
+  text-align: center;
+  padding: 50px;
+}
